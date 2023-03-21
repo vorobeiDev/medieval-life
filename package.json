@@ -1,0 +1,31 @@
+{
+  "name": "medieval-simulator",
+  "version": "0.0.1",
+  "description": "A simulation game in the setting of the Middle Ages. Where the main character survives in the difficult time of the Middle Ages.",
+  "main": "src/app.ts",
+  "scripts": {
+    "tsc": "tsc",
+    "run": "node dist/app.js"
+  },
+  "keywords": [
+    "TS",
+    "Middle",
+    "Ages",
+    "Medieval",
+    "Simulator",
+    "Patterns"
+  ],
+  "type": "module",
+  "moduleResolution": "node",
+  "module": "ES2022",
+  "target": "es2022",
+  "author": "Vlad Vorobei",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.1.5"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^18.15.5"
+  }
+}
